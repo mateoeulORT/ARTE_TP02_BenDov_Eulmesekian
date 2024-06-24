@@ -52,6 +52,7 @@ nav li{
 }
 nav li:hover{
     background-color: #E7E7E7;
+    transform: scale(1.05);
 }
 
 nav a{

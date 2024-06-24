@@ -1,8 +1,14 @@
-main img{
-    margin-top: 3%;
-    margin-bottom: 1%;
+/*IMAGEN ARRIBA */
+main .imagen{
+    background-image: url('../images/inicio2.jpg');
+
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center;  
 }
 
+/*MAIN */
 section h1{
     text-align: center;
     background-color: rgba(255, 67, 67, 0.7);;
@@ -11,14 +17,15 @@ section h1{
 }
 
 section .imagenYtexto{
-    margin-top: -3%;
+    margin-top: 3%;
 }
 
 section .imagenYtexto img{
     width: 35%;
+    height: auto;
     float: left;
 
-    margin-left: 1%;
+    margin-left: 2%;
     margin-right: 2%;
     margin-top: 0;
 }
@@ -26,12 +33,7 @@ section .imagenYtexto p{
     font-size: 130%;
 
     margin-right: 3%;
-    margin-top: 5%;
-}
-
-section div{
-    clear: both;  
-    margin-top: 3%; 
+    margin-top: 1.7%;
 }
 
 
@@ -54,11 +56,72 @@ div a:visited{
     color: blue;
 }
 
+/* SEPARADOR*/
+.separador{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.separador img{
+    width: 30%;
+    height: auto;
+}
+.separador h2{
+    clear: both;
+    font-size: 200%;
+    text-align: center;
 
-section .iframes{
+}
+
+
+/* QUE HACEMOS */
+section:last-of-type{
+    padding-top: 3%;
+    background-image: url('../images/fondo.png');
+    height: 130vh;
+
+}
+
+.imagenConEpigrafe{
+    width: 280px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.imagenConEpigrafe:hover{
+    transform: scale(1.05);
+}
+
+.imagenConEpigrafe img {  
+    width: 100%; 
+    height: 350px;
+    object-fit: cover;
+    filter: brightness(0.8);
+
+}
+.imagenConEpigrafe p{
+    margin: 0;
+    background-color: #E7E7E7;
+}
+.primeras3, .ultimas2{
     display: flex;
     justify-content: center;
+    margin-bottom: 3%;
 }
-section iframe{
-    margin-right: 1%;
+
+
+
+/* MAPA Y VIDEO*/
+.iframes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+iframe{
+    margin-top: 3%;
+    width: 70%; 
+    height: 400px;
+}
+
