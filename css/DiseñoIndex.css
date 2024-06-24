@@ -1,0 +1,64 @@
+main img{
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+section h1{
+    text-align: center;
+    background-color: rgba(255, 67, 67, 0.7);;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+section .imagenYtexto{
+    margin-top: -3%;
+}
+
+section .imagenYtexto img{
+    width: 35%;
+    float: left;
+
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: 0;
+}
+section .imagenYtexto p{
+    font-size: 130%;
+
+    margin-right: 3%;
+    margin-top: 5%;
+}
+
+section div{
+    clear: both;  
+    margin-top: 3%; 
+}
+
+
+main div p{
+    margin-left: 1%;
+    margin-bottom: 0.5%;
+    margin-top: 0;
+
+    font-size: 150%;
+}
+.negrita{
+    font-weight: bold;
+}
+
+div a{
+    text-decoration: none;
+}
+
+div a:visited{
+    color: blue;
+}
+
+
+section .iframes{
+    display: flex;
+    justify-content: center;
+}
+section iframe{
+    margin-right: 1%;
+}

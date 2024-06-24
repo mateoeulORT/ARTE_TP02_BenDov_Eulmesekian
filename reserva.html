@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nav&footer.css">
+    <title>BellaViaggii</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <hr>
+            <a href="index.html"><img src="images\logo.png"    alt=""></a> 
+
+            <ul>
+                <li> <a href="index.html">INICIO</a> </li>
+                <li> <a href="reserva.html">RESERVAR</a> </li>
+                <li> <a href="destinos.html">DESTINOS</a> </li>
+                <li> <a href="nosotros.html">NOSOTROS</a> </li>
+            </ul>
+        </nav>
+        <hr>
+    </header>  
+
+    <main>
+
+        <h2>HACEE TU RESERVA AQUI:</h2>
+
+        <form method="get"  action="ventana.html">
+
+            Nombre: <input type="text" placeholder="Nombre" >
+            <br>
+            Apellido: <input type="text" placeholder="Apellido" >
+            <br>
+            DNI: <input type="text" placeholder="DNI" >
+            <br>
+            E-mail: <input type="text" placeholder="Email" >
+            <br>
+            
+            <p> GENERO:
+                <br>
+                <input name="genero" type="radio"> Hombre
+                <input name="genero" type="radio"> Mujer
+                <input name="genero" type="radio"> Otro
+                <br>
+            </p>
+            
+            <p>DESTINO:
+                <select name="">
+                    <option selected>Roma</option> <br>
+                    <option>Napoles</option> <br>
+                    <option>Milan</option> <br>
+                </select>
+            </p>
+
+            <p>HOSPEDAJE:
+                <select name="">
+                    <option selected>Hotel Centro</option> <br>
+                    <option>All inclused</option> <br>
+                    <option>Departamento</option> <br>
+                </select>
+            </p>
+            
+            PASAJES: <input type="number" placeholder="cantidad pasajes" >
+            <br>
+            FECHA LLEGADA: <input type="Date" >
+            <br>
+            FECHA DE VUELTA: <input type="date" >
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar">
+        </form>
+        
+        <br>
+        <br>
+
+    </main>
+
+    <footer>
+        <div>
+            <img src="images/ig.png" alt="">
+            <p>@BellaViaggi</p> 
+        </div>
+        
+        <div>
+            <img src="images/llamada.png" alt="">
+            <p>54 911 3865-7429</p>
+        </div>
+        
+        <div>
+            <img src="images/mail.png" alt="">
+            <p>bellaviaggi@help.com</p>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright© 2024 BellaViaggi</p>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
