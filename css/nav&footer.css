@@ -18,6 +18,9 @@ nav hr{
     margin-top: 2%;
 }
 
+p:last-of-type{
+    clear: both;
+}
 
 header, nav{
     margin-top: 0;

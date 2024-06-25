@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/nav&footer.css">
+    <link rel="stylesheet" href="css/diseñoReserva.css">
+
     <title>BellaViaggii</title>
 </head>
 
@@ -26,59 +28,63 @@
 
     <main>
 
-        <h2>HACEE TU RESERVA AQUI:</h2>
+        <h2>HAZ TU RESERVA AQUI:</h2>
 
-        <form method="get"  action="ventana.html">
+        <form method="get"  action="index.html">
 
-            Nombre: <input type="text" placeholder="Nombre" >
-            <br>
-            Apellido: <input type="text" placeholder="Apellido" >
-            <br>
-            DNI: <input type="text" placeholder="DNI" >
-            <br>
-            E-mail: <input type="text" placeholder="Email" >
-            <br>
-            
-            <p> GENERO:
-                <br>
-                <input name="genero" type="radio"> Hombre
-                <input name="genero" type="radio"> Mujer
-                <input name="genero" type="radio"> Otro
-                <br>
-            </p>
-            
-            <p>DESTINO:
-                <select name="">
-                    <option selected>Roma</option> <br>
-                    <option>Napoles</option> <br>
-                    <option>Milan</option> <br>
-                </select>
-            </p>
+            <section>
+                <div>
 
-            <p>HOSPEDAJE:
-                <select name="">
-                    <option selected>Hotel Centro</option> <br>
-                    <option>All inclused</option> <br>
-                    <option>Departamento</option> <br>
-                </select>
-            </p>
+                
+                    <p>Elija su destino:
+                        <select name="">
+                            <option selected>Roma</option> <br>
+                            <option>Napoles</option> <br>
+                            <option>Milan</option> <br>
+                        </select>
+                    </p>
+
+                    <p>Escoja su hotel:
+                        <select name="">
+                            <option selected>Hotel Centro</option> <br>
+                            <option>All inclused</option> <br>
+                            <option>Departamento</option> <br>
+                        </select>
+                    </p>
+
+                    <p>Fecha de llegada: <input type="Date" > </p>
+                    <p>Fecha de vuelta:<input type="date" > </p>      
+                    <p>Cantidad de pasajes: <input type="number" min="0" max="10" placeholder="00" > </p>
+                </div>
+            </section>
             
-            PASAJES: <input type="number" placeholder="cantidad pasajes" >
-            <br>
-            FECHA LLEGADA: <input type="Date" >
-            <br>
-            FECHA DE VUELTA: <input type="date" >
-            <br>
-            <br>
-            <br>
+            <section>
+                <p><span class="negrita">DATOS DE LA TARJETA</span></p>
+
+                <div>
+                    <p>Nombre del titular: <input type="text" placeholder="Nombre impreso en tarjeta"></p>
+                    <p>DNI: <input type="text" placeholder="DNI" > </p>
+                </div>
+                
+                <div>
+                    <p>Numero de tarjeta: <input type="text" placeholder="0000 0000 0000 0000"> </p>
+                    <p>Vencimiento: <input type="date"> </p>
+                </div>
+
+                <div>
+                    <p>CVV: <input type="text" placeholder="000"></p>
+                </div>
+                
+
+                <img src="images/medioPago.jpg" alt="">
+            </section>
+            
             <input type="submit" value="Enviar">
             <input type="reset" value="Reiniciar">
         </form>
-        
-        <br>
-        <br>
 
     </main>
+
 
     <footer>
         <div>
