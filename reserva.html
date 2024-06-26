@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/nav&footer.css">
-    <link rel="stylesheet" href="css/diseñoReserva.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>BellaViaggii</title>
 </head>
@@ -28,14 +28,12 @@
 
     <main>
 
-        <h2>HAZ TU RESERVA AQUI:</h2>
-
         <form method="get"  action="index.html">
 
-            <section>
+            <section class="datosDestino">
+                <h2>HAZ TU RESERVA AQUI:</h2>
                 <div>
 
-                
                     <p>Elija su destino:
                         <select name="">
                             <option selected>Roma</option> <br>
@@ -52,35 +50,48 @@
                         </select>
                     </p>
 
-                    <p>Fecha de llegada: <input type="Date" > </p>
-                    <p>Fecha de vuelta:<input type="date" > </p>      
-                    <p>Cantidad de pasajes: <input type="number" min="0" max="10" placeholder="00" > </p>
+                    <p>Elija su plan:
+                        <select name="">
+                            <option selected>Viaje familiar</option> <br>
+                            <option>Intercambio</option> <br>
+                            <option>Work & travel</option> <br>
+                            <option>Viaje en pareja</option> <br>
+                            <option>Mochilero</option> <br>
+                        </select>
+                    </p>
+
+                    <p>Fecha de llegada: <input type="Date" > </p> 
+                    <p>Fecha de vuelta:  <input type="date" >      </p>
+                    <p>Cantidad de pasajes: <input type="number" min="0" max="10" placeholder="00"> </p> 
                 </div>
             </section>
             
-            <section>
-                <p><span class="negrita">DATOS DE LA TARJETA</span></p>
+            <section class="datosTarjeta">
+                <h2>DATOS DE LA TARJETA</h2>
 
                 <div>
-                    <p>Nombre del titular: <input type="text" placeholder="Nombre impreso en tarjeta"></p>
-                    <p>DNI: <input type="text" placeholder="DNI" > </p>
+                    <p>Nombre del titular:<input type="text" placeholder="Nombre impreso en tarjeta"></p> 
+                    <p>Numero de tarjeta:<input type="text" placeholder="0000 0000 0000 0000"> </p> 
+                    
                 </div>
                 
                 <div>
-                    <p>Numero de tarjeta: <input type="text" placeholder="0000 0000 0000 0000"> </p>
+
                     <p>Vencimiento: <input type="date"> </p>
                 </div>
 
-                <div>
-                    <p>CVV: <input type="text" placeholder="000"></p>
+                <div class="chiquito">
+                    <p>DNI:<input type="text" placeholder="DNI" > </p> 
+                    <p> CVV: <input type="text" placeholder="000"></p>
                 </div>
                 
 
                 <img src="images/medioPago.jpg" alt="">
             </section>
             
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Reiniciar">
+            <input type="submit" value="ENVIAR">
+            <br>
+            <input type="reset" value="REINICIAR">
         </form>
 
     </main>

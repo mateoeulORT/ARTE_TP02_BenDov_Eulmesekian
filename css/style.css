@@ -1,0 +1,447 @@
+body, html {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* NAVEGADOR */
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+hr {
+    clear: both;
+    padding: 0;
+    margin-top: 0;
+    position: relative;
+}
+
+nav hr {
+    margin-top: 2%;
+}
+
+p:last-of-type {
+    clear: both;
+}
+
+header,
+nav {
+    margin-top: 0;
+}
+
+nav {
+    padding-bottom: 5%;
+}
+
+
+nav img {
+    width: 14%;
+    height: auto;
+    margin-top: 0%;
+    float: left;
+}
+
+
+nav ul {
+    margin-top: 0%;
+}
+
+nav li {
+    list-style-type: none;
+    border-radius: 1%;
+
+    margin-left: 3%;
+    margin-right: 7%;
+    margin-top: 0.5%;
+    float: left;
+
+    border-radius: 15%;
+    padding: 2%;
+}
+
+nav li:hover {
+    background-color: #E7E7E7;
+    transform: scale(1.05);
+}
+
+nav a {
+    color: #787878;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+nav a:visited {
+    color: #787878;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: rgba(255, 67, 67, 0.7);
+    padding-top: 0.5%;
+    margin-top: 7%;
+    position: relative;
+}
+
+footer div {
+
+    margin-top: 1%;
+    clear: both;
+    display: flex;
+    align-items: center;
+}
+
+
+footer img {
+    width: 2%;
+    margin-left: 3%;
+    margin-right: 0.6%;
+}
+
+footer p {
+    margin-top: 1%;
+    float: left;
+}
+
+footer .copyright {
+    margin-top: -3%;
+    margin-right: 1%;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------- DISEÑO INDEX -------------------------------------*/
+
+/*IMAGEN ARRIBA */
+main .imagenInicio {
+    background-image: url('../images/inicio2.jpg');
+
+    margin-top: 2%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/*MAIN */
+.abajoImagen h1 {
+    text-align: center;
+    background-color: rgba(255, 67, 67, 0.7);
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.abajoImagen .imagenYtexto {
+    margin-top: 3%;
+}
+
+.abajoImagen .imagenYtexto img {
+    width: 35%;
+    height: auto;
+    float: left;
+
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0;
+}
+
+.abajoImagen .imagenYtexto p, .ultParrafo {
+
+    font-size: 125%;
+    margin-right: 3%;
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+
+
+.abajoImagen div p {
+    margin-left: 1%;
+    margin-bottom: 0.5%;
+
+    font-size: 150%;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.abajoImagen div a {
+    text-decoration: none;
+}
+
+div a:visited {
+    color: blue;
+}
+
+/* SEPARADOR*/
+.separador {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.separador img {
+    width: 30%;
+    height: auto;
+}
+
+.separador h2 {
+    clear: both;
+    font-size: 200%;
+    text-align: center;
+
+}
+
+
+/* QUE HACEMOS */
+.planes {
+    padding-top: 3%;
+    background-image: url('../images/fondo.png');
+    height: 130vh;
+
+}
+
+.imagenConEpigrafe {
+    width: 280px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.imagenConEpigrafe:hover {
+    transform: scale(1.05);
+}
+
+.imagenConEpigrafe img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    filter: brightness(0.8);
+
+}
+
+ .imagenConEpigrafe p {
+    margin: 0;
+    background-color: #E7E7E7;
+}
+
+.planes .primeras3,
+.ultimas2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+
+
+/* MAPA Y VIDEO*/
+.iframes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iframes iframe {
+    margin-top: 3%;
+    width: 70%;
+    height: 400px;
+}
+
+
+
+
+
+
+/*-------------------------------- DISEÑO RESERVAS -------------------------------------*/
+
+form {
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.datosDestino p,
+.datosTarjeta p {
+    font-size: larger;
+}
+
+
+section .datosDestino {
+    margin-top: -1%;
+    border: 1px solid grey;
+    margin-top: 5%;
+}
+
+
+.datosTarjeta img {
+    width: 40%;
+    clear: both;
+}
+
+.datosDestino div,
+.datosTarjeta div {
+    width: 50%;
+    padding-right: 40%;
+    margin-left: 2%;
+}
+
+
+input[type="text"],
+input[type="date"],
+select,
+input[type="number"] {
+    width: 40%;
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 1%;
+}
+
+.datosTarjeta {
+    margin-top: 3%;
+}
+
+
+input[type="submit"] {
+    width: 45%;
+    padding: 1%;
+    border: 1px solid #ccc;
+    background-color: #14BC00;
+}
+
+input[type="submit"]:hover {
+    background-color: #12A500;
+}
+
+input[type="reset"] {
+    margin-top: 1%;
+    width: 45%;
+    padding: 1%;
+    border: 1px solid #ccc;
+    background-color: #FFC631;
+}
+
+input[type="reset"]:hover {
+    background-color: #E5AD1C;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------- DISEÑO DESTINOS -------------------------------------*/
+
+.destinos {
+    margin-top: 2%;
+}
+
+.destinos h2 {
+    padding-bottom: -10%;
+    color: red;
+    font-size: 400%;
+    font-family: "Mrs Saint Delafield", cursive;
+    font-weight: 400;
+
+    margin-bottom: 0;
+}
+
+.destinos>div {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.destinos img {
+    width: 38%;
+    height: auto;
+    margin-bottom: 0;
+    box-shadow: 5px 5px 20px gray;
+}
+.napoles img{
+    box-shadow: -5px 5px 20px gray;
+}   
+
+.destinos p {
+    width: 78%;
+    font-size: 110%;
+}
+
+.roma img,
+.milan img {
+    margin-top: 3%;
+}
+
+.roma p,
+.milan p,
+.roma h2,
+.milan h2 {
+    margin-left: 4%;
+}
+
+
+.napoles div {
+    margin-right: 4%;
+}
+
+.napoles p {
+    float: right;
+}
+
+.napoles h2 {
+    text-align: end;
+}
+
+.napoles img {
+    margin-top: 4%;
+}
+
+/*-------------------------------- DISEÑO NOSOTROS -------------------------------------*/
+.nosotros .imagenConEpigrafe img{
+    width: 120%;
+    height: auto;
+}
+.nosotros .imagenConEpigrafe{
+    text-align: left;
+    font-weight: normal;
+}
+.nosotros .imagenConEpigrafe p{
+    width: 120%;
+}
+.nosotros .imagenConEpigrafe:hover{
+    transform: none;
+}
+
+
+.nosotros{
+    margin-top: 4%;
+    margin-left: 3%;
+}
+.nosotros p{
+    font-size: 120%;  
+    width: 65%;  
+}
+
+.nosotros .imagenConEpigrafe{
+    float: right;
+    margin-top: 0;
+    margin-right: 10%;
+}
+
+
